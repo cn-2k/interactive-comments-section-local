@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-neutral-very-light-gray dark:bg-gray-900 dark:text-gray-200 antialiased overflow-x-hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
